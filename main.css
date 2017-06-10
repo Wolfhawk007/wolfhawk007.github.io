@@ -1,45 +1,152 @@
 img{ 
   width:220px;
-  
 }
 
 h1{
-  color: lightblue;
-  text-align:center;
+  color: Black;
 }
 
 p,li{
   font-size:1.2em;
-  color:white;
+  color:black;
   max-width:80%;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Scada', sans-serif;
   
 }
 
 body{
-  background-color:#a10022;
+  background-color:#946c78;
 }
 
 a{
   color:white;
-  font-size:1.5em;
+  text-align:center;
+  
 }
 
 .profilepicture{
-  border-radius:50%;
+  border-radius:5%;
   float:left;
-  margin:5px;
+  margin:10px;
 }
 
 h1,h2{
-  font-family: 'Vollkorn', serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
-.aboutme{
-  
+.header{
+  position:relative;
+  background: url(  background:https://scontent.xx.fbcdn.net/v/t1.0-9/12189781_1190626297632321_7431547084805134158_n.jpg?oh=0e4600aa0f1be410eabb5506d11204ba&oe=59E134CA;
+  background-size:100%;) no-repeat;
+  background-size:100%;
 }
 
-.about{
- 
+.page-title{
+  position:absolute;
+  bottom:60px;
 }
+
+.header2{
+  height:190px;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+
+.box-text{
+  text-align:center;
+  font-size:1.75em;
+}
+
+.box1{
+  background-color:gray;
+  width:150px;
+  height:200px;
+}
+
+
+
+.container{
+  display:flex;
+  Justify-content:center;
+  flex-flow:row no-wrap;
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  border: solid black 2px;
+}
+
+.favorite-book1{
+  font-size:1.75em;
+  position:relative;
+  left:45%;
+  margin:0;
+  padding:0;
+}
+
+.favorite-book2{
+  font-size:1.5em;
+  position:relative;
+  left:49%;
+}
+
+.book-image{
+  position:relative;
+  left:47%;
+}
+
+.movie{
+  height:200px;
+  width:100%;
+}
+
+@media(max-width:500px){
+  .profilepicture{
+    float:none;
+    position:relative;
+    left:25%;
+  }
+  
+  h2,p{
+    text-align:center;
+  }
+  
+  .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:75%;
+    margin:70px;
+  }
+  
+  .box1{
+    width:100%;
+  }
+  
+  .favorite-book1{
+  font-size:1.75em;
+  position:relative;
+  left:5%;
+  margin:0;
+  padding:0;
+}
+
+.favorite-book2{
+  font-size:1.5em;
+  position:relative;
+  left:35%;
+}
+
+.book-image{
+  position:relative;
+  left:30%;
+}
+  p{
+    margin:80px;
+  }
